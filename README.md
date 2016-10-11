@@ -1,19 +1,19 @@
 # celery-demo-proj
 
-1. Install requirements
+#### Install requirements
 
 ```
 sudo apt-get install -y rabbitmq-server
 sudo pip install celery
 ```
 
-2. Run worker
+#### Run worker
 
 ```
 make startworker
 ```
 
-3. Run task pusher in another terminate of the same node
+#### Run task pusher in another terminate of the same node
 
 ```
 make pushtasks
